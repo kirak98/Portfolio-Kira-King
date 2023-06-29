@@ -1,4 +1,41 @@
-h1 {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 5px;
+:root {
+    --branding-color: #4B7196;
+    --heading-font-family: 'Roboto', sans-serif;
+    --secondary-color: #2F6BDB;
 }
+
+body {
+    font-family: var(--heading-font-family);
+}
+
+h1, h2 {
+    font-family: var(--heading-font-family);
+    color: #fff;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.hero {
+    background: #1B1B1B;
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.btn-branding {
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    background: var(--branding-color);
+    line-height: 27px;
+    padding: 12px 20px;
+
+}
+
