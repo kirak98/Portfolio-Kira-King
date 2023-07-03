@@ -6,27 +6,35 @@
 
 body {
     font-family: var(--heading-font-family);
+    background: #1B1B1B;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font-family);
     color: #fff;
+    text-align: center;
 }
 h1 {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bold;
-letter-spacing: 4px;
+    padding: 20px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: normal;
+}
+
+h3 { font-size: 20px;
 }
 
 .hero {
     background: #1B1B1B;
     text-align: center;
     padding: 160px 20px;
+}
+.hero h1 {
+    letter-spacing: 4px;
 }
 
 .btn-branding {
@@ -44,5 +52,6 @@ img.kira {
     padding: 10px;
     border-radius: 20px;
 }
-
-
+ .about p {
+    color: #fff;
+ }
