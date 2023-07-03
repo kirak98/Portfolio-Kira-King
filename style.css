@@ -12,7 +12,6 @@ body {
 h1, h2, h3 {
     font-family: var(--heading-font-family);
     color: #fff;
-    text-align: center;
 }
 h1 {
     font-size: 64px;
@@ -47,11 +46,20 @@ h3 { font-size: 20px;
     margin: 20px;
 
 }
-
 img.kira {
     padding: 10px;
     border-radius: 20px;
 }
- .about p {
+
+
+.about {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+ .description {
     color: #fff;
+font-size: 16px;
  }
+
