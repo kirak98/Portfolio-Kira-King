@@ -1,7 +1,7 @@
 :root {
     --branding-color: #4B7196;
     --heading-font-family: 'Roboto', sans-serif;
-    --secondary-color: #2F6BDB;
+    --secondary-color: #404DA2;
 }
 
 body {
@@ -64,3 +64,25 @@ img.kira {
 font-size: 16px;
  }
 
+ p {
+    color:#fff;
+    opacity: 0.5;
+    text-align: center;
+ }
+
+ .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    color: #fff;
+    background: var(--branding-color);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: all 150ms ease-in-out;
+ }
+
+ .primary-link:hover {
+    background: var(--secondary-color);
+    color: #fff;
+
+ }
