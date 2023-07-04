@@ -45,7 +45,13 @@ h3 { font-size: 20px;
     line-height: 27px;
     padding: 12px 18px;
     margin: 20px;
+    transition: all 150ms ease-in-out;
 
+}
+
+.btn-branding:hover {
+    background: var(--secondary-color);
+    color: #fff;
 }
 img.kira {
     padding: 10px;
