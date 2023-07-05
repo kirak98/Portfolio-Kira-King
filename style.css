@@ -31,7 +31,7 @@ h3 { font-size: 20px;
 .hero {
     background: #1B1B1B;
     text-align: center;
-    padding: 90px 20px;
+    padding: 90px 20px 0;
 }
 .hero h1 {
     letter-spacing: 4px;
@@ -61,7 +61,8 @@ img.kira {
 
 .container {
     text-align: center;
-    padding: 90px 20px;
+    padding: 20px auto;
+    margin: 40px auto;
 }
 
  .description {
@@ -139,10 +140,6 @@ padding: 0.5rem;
     border-color: var(--branding-color);
 }
 
-
-footer {
-    margin: 60px 0;
-}
 .email-link {
 display: flex;
     justify-content: center;
