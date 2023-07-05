@@ -1,7 +1,7 @@
 :root {
-    --branding-color: #4B7196;
+    --secondary-color: #4B7196;
     --heading-font-family: 'Roboto', sans-serif;
-    --secondary-color: #404DA2;
+    --branding-color: #404DA2;
 }
 
 body {
@@ -41,7 +41,7 @@ h3 { font-size: 20px;
     border-radius: 6px;
     color: #fff;
     font-size: 16px;
-    background: var(--branding-color);
+    background: var(--secondary-color);
     line-height: 27px;
     padding: 12px 18px;
     margin: 20px;
@@ -50,24 +50,25 @@ h3 { font-size: 20px;
 }
 
 .btn-branding:hover {
-    background: var(--secondary-color);
+    background: var(--branding-color);
     color: #fff;
 }
 img.kira {
     padding: 10px;
+    margin: 0;
     border-radius: 20px;
 }
 
-
-.about {
-    padding: 20px;
+.container {
     text-align: center;
-    
+    padding: 90px 20px;
 }
 
  .description {
     color: #fff;
 font-size: 16px;
+padding: 10px;
+margin: 10px;
  }
 
  p {
@@ -80,7 +81,7 @@ font-size: 16px;
     border-radius: 4px;
     padding: 20px 15px;
     color: #fff;
-    background: var(--branding-color);
+    background: var(--secondary-color);
     text-decoration: none;
     display: block;
     text-align: center;
@@ -88,7 +89,7 @@ font-size: 16px;
  }
 
  .primary-link:hover {
-    background: var(--secondary-color);
+    background: var(--branding-color);
     color: #fff;
 
  }
@@ -103,7 +104,7 @@ font-size: 16px;
  }
 
  .icon {
-    color: #fff;
+    color: var(--branding-color);
     font-size: 26px;
     display: flex;
     justify-content: center;
@@ -112,7 +113,7 @@ font-size: 16px;
 
 
 .navbar-dark .navbar-nav .nav-link.active{
-    color: var(--secondary-color);
+    color: var(--branding-color);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -139,5 +140,5 @@ padding: 0.5rem;
     letter-spacing: 2px;
 }
 .navbar-dark .navbar-toggler {
-    border-color: var(--secondary-color);
+    border-color: var(--branding-color);
 }
